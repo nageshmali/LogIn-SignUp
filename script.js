@@ -6,12 +6,6 @@ const memberText = document.getElementById('memberText');
 const signloginBtn = document.getElementById('signloginBtn');
 
 
-signinBtn.addEventListener('click',()=>{
-    if(nameField.innerHTML === ""){
-        alert("Please enter the details")
-    }
-})
-
 
 signupBtn.addEventListener('click',()=>{
     title.innerHTML = "Sign Up";
